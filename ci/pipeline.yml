@@ -9,7 +9,7 @@ resources:
 - name: deploy-attendee-service
   type: cf
   source:
-    api: https://apps.system.cumuluslabs.io        #<----- REPLACE ME
+    api: https://api.system.cumuluslabs.io        #<----- REPLACE ME
     username: {{cf-user}}
     password: {{cf-password}}
     organization: bgovindarajan3-PAL-Dec11    #<----- REPLACE ME
